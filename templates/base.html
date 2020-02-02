@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Blog Project</title>
+    </head>
+    <body>
+        <header>
+            <a href="{% url 'blog_list' %}">BLOG</a>
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
