@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/rodrigoSyscop/blog_project/issues"
   },
-  "homepage": "https://github.com/rodrigoSyscop/blog_project#readme"
+  "homepage": "https://github.com/rodrigoSyscop/blog_project#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
 }
